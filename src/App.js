@@ -14,7 +14,7 @@ function App() {
   return (
     <div className={darkMode ? 'dark' : ''}>
       <Router>
-        <div className="App bg-gradient-to-tr from-green-400 to-blue-500 min-h-screen flex flex-col dark:bg-gradient-to-tr dark:from-black dark:to-orange-500">
+        <div className="App bg-gradient-to-tr from-green-400 to-blue-500 min-h-screen flex flex-col dark:bg-gradient-to-tr dark:from-black dark:to-blue-500">
           <NavBar darkMode={darkMode} setDarkMode={setDarkMode} />
           <section className="flex-grow pt-5">
             <Routes>

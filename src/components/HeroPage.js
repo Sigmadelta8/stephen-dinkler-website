@@ -1,7 +1,5 @@
 'use client'
 import heroImage from '../assets/heroImage.jpg'
-import TechStack from './TechStack'
-import Education from './Education'
 export default function HeroPage() {
 
   return (
@@ -28,7 +26,7 @@ export default function HeroPage() {
           <div className="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
             <div className="flex">
             </div>
-            <h1 className="mt-5 dark:text-orange-400 text-pretty text-5xl font-semibold tracking-tight text-blue-500 sm:text-5xl">
+            <h1 className="mt-5 dark:text-blue-500 text-pretty text-5xl font-semibold tracking-tight text-blue-500 sm:text-5xl">
               Stephen Dinkler
             </h1>
             <p className="mt-4 text-pretty text-lg font-medium text-gray-700 dark:text-gray-300 sm:text-xl/8">

@@ -4,7 +4,7 @@ export default function Projects() {
       {/* First Project */}
       <div className="bg-white grid grid-cols-2 items-center max-w-screen-2xl dark:bg-gray-900 rounded-2xl py-5">
         <div className="px-5">
-          <h1 className="text-center text-xl font-semibold text-blue-500 dark:text-orange-500">
+          <h1 className="text-center text-xl font-semibold text-blue-500 dark:text-blue-500">
             Hardware Tracker
           </h1>
           <p className="mt-4 text-sm text-left text-gray-600 dark:text-gray-400">
@@ -52,7 +52,7 @@ export default function Projects() {
           </video>
         </div>
         <div className="px-5">
-          <h1 className="text-center text-xl font-semibold text-blue-500 dark:text-orange-500">
+          <h1 className="text-center text-xl font-semibold text-blue-500 dark:text-blue-500">
             Distribution Center Data (DC Data)
           </h1>
           <p className="mt-4 text-sm text-left text-gray-600 dark:text-gray-400">
@@ -78,7 +78,7 @@ export default function Projects() {
       {/* Second Project */}
       <div className="bg-white grid grid-cols-2 items-center max-w-screen-2xl dark:bg-gray-900 rounded-2xl mt-5 py-5">
         <div className="px-5">
-          <h1 className="text-center text-xl font-semibold text-blue-500 dark:text-orange-500">
+          <h1 className="text-center text-xl font-semibold text-blue-500 dark:text-blue-500">
             Grand Central Time Tracker
           </h1>
           <p className="mt-4 text-sm text-left text-gray-600 dark:text-gray-400">

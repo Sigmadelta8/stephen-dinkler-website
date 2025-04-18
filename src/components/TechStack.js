@@ -1,7 +1,7 @@
 export default function TechStack() {
     return(
     <section className="mt-5 pb-10 px-6">
-        <h3 className="text-3xl font-semibold pt-3 text-blue-500 dark:text-orange-500 mb-6">
+        <h3 className="text-3xl font-semibold pt-3 text-blue-500 dark:text-blue-500 mb-6">
           Tech Stack
         </h3>
         <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-4">

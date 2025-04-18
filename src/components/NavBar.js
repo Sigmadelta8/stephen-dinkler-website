@@ -16,7 +16,7 @@ export default function NavBar({ darkMode, setDarkMode }) {
             className={({ isActive }) =>
               isActive
                 ? 'text-gray-700 dark:text-gray-300 text-lg font-semibold underline'
-                : 'text-gray-700 dark:text-gray-300 text-lg font-semibold hover:dark:text-orange-500 hover:text-blue-400'
+                : 'text-gray-700 dark:text-gray-300 text-lg font-semibold hover:dark:text-blue-500 hover:text-blue-400'
             }
           >
             About
@@ -26,7 +26,7 @@ export default function NavBar({ darkMode, setDarkMode }) {
             className={({ isActive }) =>
               isActive
                 ? 'text-gray-700 dark:text-gray-300 text-lg font-semibold underline'
-                : 'text-gray-700 dark:text-gray-300 text-lg font-semibold hover:dark:text-orange-600 hover:text-blue-400'
+                : 'text-gray-700 dark:text-gray-300 text-lg font-semibold hover:dark:text-blue-500 hover:text-blue-400'
             }
           >
             History
@@ -36,7 +36,7 @@ export default function NavBar({ darkMode, setDarkMode }) {
             className={({ isActive }) =>
               isActive
                 ? 'text-gray-700 dark:text-gray-300 text-lg font-semibold underline'
-                : 'text-gray-700 dark:text-gray-300 text-lg font-semibold hover:dark:text-orange-600 hover:text-blue-400'
+                : 'text-gray-700 dark:text-gray-300 text-lg font-semibold hover:dark:text-blue-500 hover:text-blue-400'
             }
           >
             Projects
@@ -46,7 +46,7 @@ export default function NavBar({ darkMode, setDarkMode }) {
             className={({ isActive }) =>
               isActive
                 ? 'text-gray-700 dark:text-gray-300 text-lg font-semibold underline'
-                : 'text-gray-700 dark:text-gray-300 text-lg font-semibold hover:dark:text-orange-600 hover:text-blue-400'
+                : 'text-gray-700 dark:text-gray-300 text-lg font-semibold hover:dark:text-blue-500 hover:text-blue-400'
             }
           >
             Contact
