@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/stephen-dinkler-website/static/css/main.f06dd15f.css",
-    "main.js": "/stephen-dinkler-website/static/js/main.dc6a8709.js",
-    "static/js/453.18f6ac63.chunk.js": "/stephen-dinkler-website/static/js/453.18f6ac63.chunk.js",
-    "static/media/heroImage.jpg": "/stephen-dinkler-website/static/media/heroImage.f35b1e9819309b90b34f.jpg",
-    "index.html": "/stephen-dinkler-website/index.html",
-    "main.f06dd15f.css.map": "/stephen-dinkler-website/static/css/main.f06dd15f.css.map",
-    "main.dc6a8709.js.map": "/stephen-dinkler-website/static/js/main.dc6a8709.js.map",
-    "453.18f6ac63.chunk.js.map": "/stephen-dinkler-website/static/js/453.18f6ac63.chunk.js.map"
+    "main.css": "/static/css/main.f06dd15f.css",
+    "main.js": "/static/js/main.eabbb30f.js",
+    "static/js/453.18f6ac63.chunk.js": "/static/js/453.18f6ac63.chunk.js",
+    "static/media/heroImage.jpg": "/static/media/heroImage.f35b1e9819309b90b34f.jpg",
+    "index.html": "/index.html",
+    "main.f06dd15f.css.map": "/static/css/main.f06dd15f.css.map",
+    "main.eabbb30f.js.map": "/static/js/main.eabbb30f.js.map",
+    "453.18f6ac63.chunk.js.map": "/static/js/453.18f6ac63.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f06dd15f.css",
-    "static/js/main.dc6a8709.js"
+    "static/js/main.eabbb30f.js"
   ]
 }
