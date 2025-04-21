@@ -1,0 +1,6 @@
+1. History/Projects/etc should be arrays that are mapped since they are repeating elements
+2. Text color should transition with bg color
+3. Contact should be a form (include honey pot)
+4. About/History/Contact should be max-w-screen-2xl like Projects (with justify center)
+5. Prevent Dark mode toggle from clipping over Navbar on phone screens
+6. Tech Stack list layout needs tuning 

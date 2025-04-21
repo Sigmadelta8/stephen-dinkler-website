@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <div className="p-10 mt-8 rounded-lg">
-      <div className="bg-white dark:bg-gray-900 rounded-2xl p-6">
+      <div className="bg-white dark:bg-gray-900 transition-colors duration-300 rounded-2xl p-6">
         <h1 className="text-center text-2xl font-semibold text-blue-500 dark:text-blue-500 mb-2">
           Let's get in touch!
         </h1>

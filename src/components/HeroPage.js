@@ -3,7 +3,7 @@ import heroImage from '../assets/heroImage.jpg'
 export default function HeroPage() {
 
   return (
-    <div className="bg-white dark:bg-gray-900 rounded-xl">
+    <div className="bg-white transition-colors max-w-screen-2xl duration-300 dark:bg-gray-900 rounded-xl w-full">
       <div className="relative isolate pt-4">
         <svg
           aria-hidden="true"
@@ -29,13 +29,13 @@ export default function HeroPage() {
             <h1 className="mt-5 dark:text-blue-500 text-pretty text-5xl font-semibold tracking-tight text-blue-500 sm:text-5xl">
               Stephen Dinkler
             </h1>
-            <p className="mt-4 text-pretty text-lg font-medium text-gray-700 dark:text-gray-300 sm:text-xl/8">
+            <p className="mt-4 text-pretty text-lg font-medium text-gray-700 transition-colors duration-300 dark:text-gray-300 sm:text-xl/8">
               Hi! Welcome to the website! I'm Stephen- a dad, PC enthusiast, martial arts lover, hobbyist mechanic, and of course, web developer! 
                 I have experience in a variety of programming languages and systems, but I am most familiar with Next.js and other React frameworks. While Javascript is my preferred language, I pick things up quickly and am always eager to learn new technologies and improve my skills. Thanks for stopping by!
             </p>
           </div>
           <div className="mt-16 sm:mt-24 lg:mt-0 lg:shrink-md lg:grow">
-            <img alt="" src={heroImage} />
+            <img className="rounded-md" alt="" src={heroImage} />
           </div>
         </div>
       </div>     
