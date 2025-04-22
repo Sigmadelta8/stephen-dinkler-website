@@ -23,6 +23,7 @@ footer {
 
 /* You may also want to add these to ensure pages take up proper space */
 #root, .App {
+  text-align: center;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
