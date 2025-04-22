@@ -1,42 +1,39 @@
+/* App.css - Optimized for Framer Motion transitions */
 
-.App {
-  text-align: center;
-}
-body {
-  margin: 0;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Main layout styles */
+main {
+  position: relative;
+  min-height: 70vh; /* Adjust based on your content needs */
+  overflow: hidden; /* Prevents scrollbars during transitions */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.page-container {
+  position: relative; /* Prevent layout shifts */
+  width: 100%;
+  height: 100%; /* Ensure it takes up the full height */
+  top: 0;
+  left: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Footer transition styles */
+footer {
+  transition: transform 300ms ease-in-out;
+}
+
+
+/* You may also want to add these to ensure pages take up proper space */
+#root, .App {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+/* Any route content should take up appropriate space */
+.page-content {
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+Ensure consistent spacing for all pages
+.page-container > div {
+  padding-bottom: 2rem; /* Add space before footer */
 }

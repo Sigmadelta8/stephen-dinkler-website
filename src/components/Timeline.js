@@ -1,10 +1,10 @@
 export default function Timeline() {
     return (
       <div className="flex justify-center items-center">
-        <ol className="self-center relative border-s border-gray-200 dark:border-gray-700">
+        <ol className="self-center relative border-s text-left border-gray-200 dark:border-gray-700 transition-colors duration-300">
           {/* Full Stack Web Developer */}
           <li className="mb-10 ms-4">
-            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700 transition-colors duration-300"></div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               August 2021 - Present
             </time>
@@ -34,7 +34,7 @@ export default function Timeline() {
   
           {/* Roofing Service Technician */}
           <li className="mb-10 ms-4">
-            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700 transition-colors duration-300"></div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               June 2018 - August 2021
             </time>
@@ -54,7 +54,7 @@ export default function Timeline() {
   
           {/* Barista */}
           <li className="ms-4">
-            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700 transition-colors duration-300"></div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               August 2015 - May 2018
             </time>
