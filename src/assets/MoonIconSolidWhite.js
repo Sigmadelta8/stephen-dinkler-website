@@ -7,7 +7,7 @@ export default function MoonIcon(){
           viewBox="0 0 24 24"
           strokeWidth="1.5"
           stroke="black" // Changed to black
-          className="size-6"
+          className="size-5"
         >
           <path
             strokeLinecap="round"

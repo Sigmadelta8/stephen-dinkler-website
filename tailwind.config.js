@@ -9,6 +9,9 @@ module.exports = {
       transitionProperty: {
         'colors': 'color, background-color, border-color, text-decoration-color, fill, stroke',
       },
+      screens: {
+        customWidth: '640px', 
+      },
       fontFamily: {
         sans: [
           '-apple-system',
