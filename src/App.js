@@ -5,12 +5,20 @@ import AboutMe from './pages/AboutMe';
 import Contact from './pages/Contact';
 import WorkHistory from './pages/WorkHistory';
 import Projects from './pages/Projects';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Footer from './components/Footer';
 import { motion, AnimatePresence } from 'framer-motion';
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(() => {
+    const savedDarkMode = localStorage.getItem('darkMode');
+    return savedDarkMode === 'true';
+  });
+
+  useEffect(() => {
+    localStorage.setItem('darkMode', darkMode);
+  }, [darkMode]);
+
   return (
     <div className={darkMode ? 'dark' : ''}>
       <Router>

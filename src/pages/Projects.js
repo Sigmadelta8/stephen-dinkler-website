@@ -38,6 +38,20 @@ export default function Projects() {
       techStack: ["React.js", "Monday.com", "GraphQL", "Tailwind"],
       videoSrc: "/GrandCentral.mp4",
     },
+    {
+      title: "Power Automate Adaptive Cards",
+      description:
+        "My Power Automate adaptive card flow displays how many orders were shipped/left to ship/overdue after each shipping day. It first checks an API endpoint I set up in the DCData project, writes the data to an Excel spreadsheet, then outputs it in a nice format in Teams every morning.",
+      techStack: ["Next.js", "Power Automate", "Microsoft Teams", "Excel", "API Endpoints"],
+      imgSrc: "/PowerAutomate.png",
+    },
+    {
+      title: "Self Hosted Media Server",
+      description:
+        "While not strictly a web dev project, I love my self-hosted media server. I took a bunch of spare PC parts I had lying around and turned it into a home server that does all kinds of different things! It runs Plex for media streaming, Sonarr and Radarr for TV and movie management, FileBrowser for a file hosting solution, and secures it all behind Nginx Proxy Manager. It is fully accessible outside of my network under my domain name, and it's honestly my pride and joy.",
+      techStack: ["Docker Desktop", "WSL2", "Nginx Proxy Manger", "Plex", "Sonarr/Radarr/Overseerr", "FileBrowser", "DNS", "Networking"],
+      imgSrc: "/MediaServer.png",
+    }
   ];
 
   return (
@@ -49,17 +63,26 @@ export default function Projects() {
             index % 2 === 0 ? "" : "flex-row-reverse"
           }`}
         >
-          {/* Video Section */}
+          {/* Media Section (Video or Image) */}
           <div className="flex justify-center w-1/2">
-            <video
-              className="rounded-lg shadow-lg"
-              controls
-              loop
-              width="500"
-            >
-              <source src={project.videoSrc} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+            {project.videoSrc ? (
+              <video
+                className="rounded-lg shadow-lg"
+                controls
+                loop
+                width="500"
+              >
+                <source src={project.videoSrc} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            ) : project.imgSrc ? (
+              <img
+                src={project.imgSrc}
+                alt={project.title}
+                className="rounded-lg shadow-lg"
+                width="500"
+              />
+            ) : null}
           </div>
 
           {/* Project Details Section */}
