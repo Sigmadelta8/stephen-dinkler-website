@@ -1,6 +1,6 @@
 import './App.css';
 import NavBar from './components/NavBar';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import AboutMe from './pages/AboutMe';
 import Contact from './pages/Contact';
 import WorkHistory from './pages/WorkHistory';
