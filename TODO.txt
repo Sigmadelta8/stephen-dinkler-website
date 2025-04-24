@@ -1,4 +1,3 @@
-2. Text color should transition with bg color
-3. Contact should be a form (include honey pot)
-5. Prevent Dark mode toggle from clipping over Navbar on phone screens
-6. Tech Stack list layout needs tuning 
+Update phrasing on projects
+update grand central video
+update timeline wording

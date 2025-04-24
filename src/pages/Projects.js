@@ -4,7 +4,7 @@ export default function Projects() {
     {
       title: "Hardware Tracker",
       description:
-        "Hardware Tracker is a fairly standard Order Details and Tracking web application. It allows users to view order details, see the latest tracking information, and view their specific package details. It works by querying Netsuite for the order, checking for shipping, querying ShipHawk API for tracking details, and then nicely configures all the information on the page. It is hosted on Vercel.",
+        "Hardware Tracker is a customer facing Order Details and Tracking web application. It allows users to view order details, see the latest tracking information, and view their specific package details. It works by querying Netsuite for the order, checking for shipping, querying ShipHawk API for tracking details, and then nicely configures all the information on the page. It is hosted on Vercel. I was the only developer on this project.",
       techStack: [
         "Next.js",
         "SuiteQL (a version of Oracle SQL)",
@@ -18,7 +18,7 @@ export default function Projects() {
     {
       title: "Distribution Center Data (DC Data)",
       description:
-        "DC Data was my first foray into a serious data visualization project. It queries Netsuite for Sales Orders and gets the status. It then takes that and a whole bunch of other information, and displays it in a nice, easy-to-read format. It also has a TV View that can be displayed on TVs in the warehouses for the warehouse workers to see what they need to pick in a style that minimizes power consumption.",
+        "DC Data was my first foray into a serious data visualization project. It queries Netsuite for Sales Orders and gets the status. It then takes that and a whole bunch of other information synthizes it, and then displays it in a nice, easy-to-read format. It also has a TV View that can be displayed on TVs in the warehouses for the warehouse workers to see what they need to pick in a style that minimizes power consumption. This was a solo dev project and is also hosted on Vercel.",
       techStack: [
         "Next.js",
         "Vercel",
@@ -34,7 +34,7 @@ export default function Projects() {
     {
       title: "Grand Central Time Tracker",
       description:
-        "Grand Central Time Tracker is a time tracking Widget built for use with Monday.com. It takes all the boards connected to it and tallies up the time spent on each project by each person each week. It displays who has the most 'billable' hours worked, and shows what projects each employee has worked on that week. It also allows for a specific week to be selected, or a custom time frame.",
+        "Grand Central Time Tracker is a time tracking Widget built for use with Monday.com. It takes all the boards connected to it and tallies up the time spent on each project by each person each week. It displays who has the most 'billable' hours worked, and shows what projects each employee has worked on that week. It also allows for a specific week to be selected, or a custom time frame. This was a solo dev project.",
       techStack: ["React.js", "Monday.com", "GraphQL", "Tailwind"],
       videoSrc: "/GrandCentral.mp4",
     },
