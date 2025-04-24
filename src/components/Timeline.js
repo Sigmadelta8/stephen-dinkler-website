@@ -15,16 +15,16 @@ export default function Timeline() {
               Jeske Hardware Distributors - Reno, NV
             </p>
             <ul className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400 list-disc list-inside">
-              <li>Wearing several different hats</li>
-              <li>Building and scaffolding several different web projects</li>
+              <li>Involved in most of the Web Related side of the business</li>
+              <li>Planning, Scaffolding, and Building several different projects</li>
               <li>
-                Experience with SQL, API and REST web services, hosting services,
+                Experience with Oracle SQL, API and REST web services, hosting services,
                 networking, and NetSuite CRM
               </li>
               <li>
                 JavaScript, Java, React.js, Next.js, some
                 PHP, Laravel, Power Automate, HTML, CSS, SASS, Tailwind UI and
-                TailwindCSS, Git
+                TailwindCSS, Git, Handlebars.js
               </li>
               <li>
                 Microsoft Teams, Outlook, and Excel
@@ -45,7 +45,7 @@ export default function Timeline() {
               Security Luebke Roofing - Appleton, WI
             </p>
             <ul className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400 list-disc list-inside">
-              <li>Learning on the job</li>
+              <li>Handling Communication between Customers and Management</li>
               <li>Roofing repair, both residential and commercial</li>
               <li>Time management and people skills</li>
               <li>Hard labor</li>
