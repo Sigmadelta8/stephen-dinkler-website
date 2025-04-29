@@ -17,23 +17,20 @@ export default function Education(){
         August 2020 to March 2021
       </p>
       <p className="mt-2 text-sm text-gray-700 dark:text-gray-300 transition-colors duration-300">
-        One semester on campus in Madison. When Covid-19 we were all sent home to continue our studies remotely.
+      Completed one semester on campus before transitioning to remote studies during the Covid-19 pandemic.
       </p>
     </div>
 
     {/* Second Education Item */}
     <div className="w-3/4 mx-auto border-t border-gray-300 dark:border-gray-600 mb-4 pt-5 transition-colors duration-300">
       <h4 className="text-xl font-semibold text-gray-800 dark:text-gray-200 transition-colors duration-300">
-        Associate's Degree
+        Associate's Degree of Arts and Science
       </h4>
       <p className="text-sm text-gray-600 dark:text-gray-400 transition-colors duration-300">
-        University of Wisconsin-Oshkosh - Appleton, WI
+        University of Wisconsin-Oshkosh, Fox Valley Campus - Appleton, WI      
       </p>
       <p className="text-sm text-gray-600 dark:text-gray-400 transition-colors duration-300">
         August 2018 to August 2019
-      </p>
-      <p className="mt-2 text-sm text-gray-700 dark:text-gray-300 transition-colors duration-300">
-        Associates Degree of Arts and Science from UW Oshkosh - Fox Valley campus.
       </p>
     </div>
 
@@ -48,21 +45,10 @@ export default function Education(){
       <p className="text-sm text-gray-600 dark:text-gray-400 transition-colors duration-300">
         Graduated in 2018
       </p>
-      <ul className="mt-2 text-sm text-gray-700 dark:text-gray-300 list-disc list-inside transition-colors duration-300">
-            <li className="font-semibold underline">4-Year Two-Sport Varsity Athlete</li>
-            <ul className="list-disc list-inside ml-4">
-              <li>Cross Country</li>
-              <li>Track and Field</li>
-            </ul>
-            <li className="font-semibold underline">AP and CAPP Student</li>
-            <ul className="list-disc list-inside ml-4">
-                <li>3 Years of CAPP Spanish</li>
-              <li>AP Statistics</li>
-              <li>AP World History, US History</li>
-              <li>AP Chemistry, Biology</li>
-              <li>AP Literature, Language</li>
-            </ul>
-          </ul>
+      <p className="text-sm text-gray-600 dark:text-gray-400 transition-colors duration-300">
+      Four-year two-sport varsity athlete in Cross Country and Track. Participated in advanced academic programs 
+      including AP Statistics, World History, US History, Chemistry, Biology, and Literature courses, with three years of CAPP Spanish instruction.
+      </p>
     </div>
   </div>
 </section>

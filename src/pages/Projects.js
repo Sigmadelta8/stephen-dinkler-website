@@ -1,10 +1,9 @@
 export default function Projects() {
-  // Array of project data
   const projects = [
     {
       title: "Hardware Tracker",
       description:
-        "Hardware Tracker is a customer facing Order Details and Tracking web application. It allows users to view order details, see the latest tracking information, and view their specific package details. It works by querying Netsuite for the order, checking for shipping, querying ShipHawk API for tracking details, and then nicely configures all the information on the page. It is hosted on Vercel. I was the only developer on this project.",
+        "Hardware Tracker is a customer-facing Order Details and Tracking web application. It allows users to view order details, see the latest tracking information, and view their specific package details. It works by querying Netsuite for the order, checking for shipping, querying ShipHawk API for tracking details, and then nicely configures all the information on the page. It is hosted on Vercel. I was the only developer on this project.",
       techStack: [
         "Next.js",
         "SuiteQL (a version of Oracle SQL)",
@@ -18,7 +17,7 @@ export default function Projects() {
     {
       title: "Distribution Center Data (DC Data)",
       description:
-        "DC Data was my first foray into a serious data visualization project. It queries Netsuite for Sales Orders and gets the status. It then takes that and a whole bunch of other information synthizes it, and then displays it in a nice, easy-to-read format. It also has a TV View that can be displayed on TVs in the warehouses for the warehouse workers to see what they need to pick in a style that minimizes power consumption. This was a solo dev project and is also hosted on Vercel.",
+        "DC Data was my first foray into a serious data visualization project. It queries Netsuite for Sales Orders and gets the status. It then takes that and a whole bunch of other information, synthesizes it, and then displays it in a nice, easy-to-read format. It also has a TV View that can be displayed on TVs in the warehouses for the warehouse workers to see what they need to pick in a style that minimizes power consumption. This was a solo dev project and is also hosted on Vercel.",
       techStack: [
         "Next.js",
         "Vercel",
@@ -51,7 +50,7 @@ export default function Projects() {
         "While not strictly a web dev project, I love my self-hosted media server. I took a bunch of spare PC parts I had lying around and turned it into a home server that does all kinds of different things! It runs Plex for media streaming, Sonarr and Radarr for TV and movie management, FileBrowser for a file hosting solution, and secures it all behind Nginx Proxy Manager. It is fully accessible outside of my network under my domain name, and it's honestly my pride and joy.",
       techStack: ["Docker Desktop", "WSL2", "Nginx Proxy Manger", "Plex", "Sonarr/Radarr/Overseerr", "FileBrowser", "DNS", "Networking"],
       imgSrc: "/MediaServer.png",
-    }
+    },
   ];
 
   return (
@@ -59,12 +58,12 @@ export default function Projects() {
       {projects.map((project, index) => (
         <div
           key={index}
-          className={`bg-white max-w-screen-2xl transition-colors duration-300 dark:bg-gray-900 rounded-2xl py-5 flex items-center ${
-            index % 2 === 0 ? "" : "flex-row-reverse"
+          className={`bg-white max-w-screen-2xl transition-colors duration-300 dark:bg-gray-900 rounded-2xl py-5 flex flex-col lg:flex-row items-center ${
+            index % 2 === 0 ? "" : "lg:flex-row-reverse"
           }`}
         >
           {/* Media Section (Video or Image) */}
-          <div className="flex justify-center w-1/2">
+          <div className="flex justify-center w-full lg:w-1/2 mb-5 lg:mb-0">
             {project.videoSrc ? (
               <video
                 className="rounded-lg shadow-lg"
@@ -86,9 +85,7 @@ export default function Projects() {
           </div>
 
           {/* Project Details Section */}
-          <div 
-            className="px-5 w-1/2"
-          >
+          <div className="px-5 w-full lg:w-1/2">
             <h1 className="text-center text-xl font-semibold text-blue-500 transition-colors duration-300">
               {project.title}
             </h1>
@@ -98,13 +95,17 @@ export default function Projects() {
             <h2 className="mt-4 text-center font-semibold text-gray-800 dark:text-gray-200 transition-colors duration-300">
               Tech Stack
             </h2>
-            <ul className={`list-disc list-inside text-sm text-gray-600 dark:text-gray-400 transition-colors duration-300 ${
-            index % 2 === 0 ? "text-left" : "text-right"
-            }`}>
+            {/* Responsive Tech Stack: List for large screens, Table for small screens */}
+            <div className="flex flex-wrap gap-2 justify-center mt-4">
               {project.techStack.map((tech, techIndex) => (
-                <li key={techIndex}>{tech}</li>
+                <div
+                  key={techIndex}
+                  className="px-3 py-1 border border-gray-400 dark:border-gray-700 rounded-md text-sm text-gray-600 dark:text-gray-400 transition-colors duration-300"
+                >
+                  {tech}
+                </div>
               ))}
-            </ul>
+            </div>
           </div>
         </div>
       ))}
