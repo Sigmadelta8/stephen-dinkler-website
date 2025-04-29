@@ -16,7 +16,7 @@ export default function Education(){
       <p className="text-sm text-gray-600 dark:text-gray-400 transition-colors duration-300">
         August 2020 to March 2021
       </p>
-      <p className="mt-2 text-sm text-gray-700 dark:text-gray-300 transition-colors duration-300">
+      <p className="mt-2 text-sm text-gray-600 dark:text-gray-400 transition-colors duration-300">
       Completed one semester on campus before transitioning to remote studies during the Covid-19 pandemic.
       </p>
     </div>
