@@ -1,4 +1,3 @@
-'use client'
 import { useRef, useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import { ChevronDownIcon } from '@heroicons/react/20/solid';
