@@ -1,5 +1,5 @@
 'use client'
-import heroImage from '../assets/heroImage.jpg'
+import heroImage3 from '../assets/heroImage3.jpg'
 export default function HeroPage() {
 
   return (
@@ -26,7 +26,7 @@ export default function HeroPage() {
           <div className="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
             <div className="flex">
             </div>
-            <h1 className="mt-5 dark:text-blue-500 text-pretty text-5xl font-semibold tracking-tight text-blue-500 sm:text-5xl">
+            <h1 className="mt-5 dark:text-lime-700 text-pretty text-5xl font-semibold transition-colors duration-300 tracking-tight text-orange-400 sm:text-5xl">
               Stephen Dinkler
             </h1>
             <p className="mt-4 text-pretty text-lg font-medium text-gray-700 transition-colors duration-300 dark:text-gray-300 sm:text-xl/8">
@@ -35,7 +35,7 @@ export default function HeroPage() {
             </p>
           </div>
           <div className="mt-16 sm:mt-24 lg:mt-0 lg:shrink-md lg:grow">
-            <img className="rounded-md" alt="" src={heroImage} />
+            <img className="rounded-md" alt="" src={heroImage3} />
           </div>
         </div>
       </div>     

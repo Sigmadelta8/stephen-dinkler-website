@@ -17,7 +17,7 @@ export default function Projects() {
     {
       title: "Distribution Center Data (DC Data)",
       description:
-        "DC Data was my first foray into a serious data visualization project. It queries Netsuite for Sales Orders and gets the status. It then takes that and a whole bunch of other information, synthesizes it, and then displays it in a nice, easy-to-read format. It also has a TV View that can be displayed on TVs in the warehouses for the warehouse workers to see what they need to pick in a style that minimizes power consumption. This was a solo dev project and is also hosted on Vercel.",
+        "DC Data was my first foray into a serious data visualization project. It queries Netsuite for Sales Orders and gets the status. It then takes that and a whole bunch of other information, synthesizes it, and then displays it in a nice, easy-to-read format. It also has a TV View that can be displayed on TVs in the warehouses for the warehouse workers to see what they need to pick in a style that minimizes power consumption. This was a solo dev project and is hosted on Vercel.",
       techStack: [
         "Next.js",
         "Vercel",
@@ -47,7 +47,7 @@ export default function Projects() {
     {
       title: "Self Hosted Media Server",
       description:
-        "While not strictly a web dev project, I love my self-hosted media server. I took a bunch of spare PC parts I had lying around and turned it into a home server that does all kinds of different things! It runs Plex for media streaming, Sonarr and Radarr for TV and movie management, FileBrowser for a file hosting solution, and secures it all behind Nginx Proxy Manager. It is fully accessible outside of my network under my domain name, and it's honestly my pride and joy.",
+        "While not strictly a web dev project, I love my self-hosted media server. I took several spare PC parts I had lying around and turned it into a home server that does all kinds of different things! It runs Plex for media streaming, Sonarr and Radarr for TV and movie management, FileBrowser for a file hosting solution, and secures it all behind Nginx Proxy Manager. It is fully accessible outside of my network under my domain name, and it's honestly my pride and joy.",
       techStack: ["Docker Desktop", "WSL2", "Nginx Proxy Manger", "Plex", "Sonarr/Radarr/Overseerr", "FileBrowser", "DNS", "Networking"],
       imgSrc: "/MediaServer.png",
     },
@@ -86,7 +86,7 @@ export default function Projects() {
 
           {/* Project Details Section */}
           <div className="px-5 w-full lg:w-1/2">
-            <h1 className="text-center text-xl font-semibold text-blue-500 transition-colors duration-300">
+            <h1 className="text-center text-xl font-semibold text-orange-400 dark:text-lime-700 transition-colors duration-300">
               {project.title}
             </h1>
             <p className="mt-4 text-sm text-gray-600 dark:text-gray-400 transition-colors duration-300">

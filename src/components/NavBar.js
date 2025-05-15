@@ -18,7 +18,7 @@ export default function NavBar({ darkMode, setDarkMode }) {
 
   return (
     <div>
-      <header className="fixed dark:shadow-blue-500 dark:shadow-sm z-50 px-16 top-4 left-1/2 -translate-x-1/2 bg-white transition-colors duration-300 dark:bg-gray-900 py-2 rounded-3xl flex items-center justify-between shadow-sm shadow-gray-600 mx-auto w-auto">
+      <header className="fixed dark:shadow-lime-700 dark:shadow-sm z-50 px-16 top-4 left-1/2 -translate-x-1/2 bg-white transition-colors duration-300 dark:bg-gray-900 py-2 rounded-3xl flex items-center justify-between shadow-sm shadow-gray-600 mx-auto w-auto">
         <nav className="flex justify-around space-x-4">
           {/* Special case for About */}
           <NavLink
@@ -26,7 +26,7 @@ export default function NavBar({ darkMode, setDarkMode }) {
             className={({ isActive }) =>
               isActive || location.pathname === '/' // Check if the current route is '/' or '/about'
                 ? 'text-gray-700 dark:text-gray-300 text-lg font-semibold underline transition-colors duration-300'
-                : 'text-gray-700 dark:text-gray-300 text-lg font-semibold hover:text-blue-500 transition-colors duration-300'
+                : 'text-gray-700 dark:text-gray-300 text-lg font-semibold dark:hover:text-lime-700 hover:text-orange-400 transition-colors duration-300'
             }
           >
             About
@@ -39,7 +39,7 @@ export default function NavBar({ darkMode, setDarkMode }) {
               className={({ isActive }) =>
                 isActive
                   ? 'text-gray-700 dark:text-gray-300 text-lg font-semibold underline transition-colors duration-300'
-                  : 'text-gray-700 dark:text-gray-300 text-lg font-semibold hover:text-blue-500 transition-colors duration-300'
+                  : 'text-gray-700 dark:text-gray-300 text-lg font-semibold dark:hover:text-lime-700 hover:text-orange-400 transition-colors duration-300'
               }
             >
               {link.label}

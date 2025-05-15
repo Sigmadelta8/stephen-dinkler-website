@@ -58,7 +58,7 @@ export default function Contact() {
     <div className="p-10 mt-8 grid place-items-center gap-8">
     <div className="bg-white transition-colors duration-300 dark:bg-gray-900 rounded-2xl max-w-screen-2xl w-full">
       <div className="mx-auto max-w-2xl text-center">
-        <h2 className="text-balance pt-5 text-4xl font-semibold tracking-tight text-blue-500 sm:text-5xl">{successMessage ? 'Thanks for you interest!' : "Let's get in touch!"}</h2>
+        <h2 className="text-balance pt-5 text-4xl font-semibold tracking-tight transition-colors duration-300 text-orange-400 dark:text-lime-700 sm:text-5xl">{successMessage ? 'Thanks for you interest!' : "Let's get in touch!"}</h2>
         <p className="mt-2 text-lg/8 text-gray-600 dark:text-gray-400 transition-colors duration-300">
         {successMessage ? "I'll get back to you as soon as I can." : "I would normally just put my phone number and email, but you never know with the internet these days..."}
         </p>
@@ -191,7 +191,7 @@ export default function Contact() {
         <div className="mt-10 mb-10 px-5">
         <button
               type="submit"
-              className="flex items-center justify-center w-full rounded-md bg-blue-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+              className="flex items-center justify-center w-full rounded-md transition-colors duration-300 bg-orange-400 dark:bg-lime-700 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
             >
               {loading ? (
                 <>

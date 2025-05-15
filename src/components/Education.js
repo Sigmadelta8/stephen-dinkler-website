@@ -1,7 +1,7 @@
 export default function Education(){
     return (
         <section className="mt-5 pb-10 px-6">
-  <h3 className="text-3xl pt-3 font-semibold text-blue-500 mb-6">
+  <h3 className="text-3xl pt-3 font-semibold transition-colors duration-300 text-orange-400 dark:text-lime-700 mb-6">
     Education
   </h3>
   <div className="space-y-6">

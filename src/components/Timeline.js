@@ -8,7 +8,7 @@ export default function Timeline() {
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               August 2021 - Present
             </time>
-            <h3 className="text-2xl font-semibold text-blue-500">
+            <h3 className="text-2xl font-semibold transition-colors duration-300 text-orange-400 dark:text-lime-700">
               Full Stack Web Developer
             </h3>
             <p className="text-sm text-gray-600 font-semibold dark:text-gray-300">
@@ -26,7 +26,7 @@ export default function Timeline() {
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               June 2018 - August 2021
             </time>
-            <h3 className="text-2xl font-semibold text-blue-500">
+            <h3 className="text-2xl font-semibold transition-colors duration-300 text-orange-400 dark:text-lime-700">
               Roofing Service Technician
             </h3>
             <p className="text-sm text-gray-600 font-semibold dark:text-gray-300">
@@ -43,7 +43,7 @@ export default function Timeline() {
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               August 2015 - May 2018
             </time>
-            <h3 className="text-2xl font-semibold text-blue-500">
+            <h3 className="text-2xl font-semibold transition-colors duration-300 text-orange-400 dark:text-lime-700">
               Barista
             </h3>
             <p className="text-sm text-gray-600 font-semibold dark:text-gray-300">

@@ -24,9 +24,9 @@ function App() {
       <Router>
         <div className="App relative min-h-screen flex flex-col">
           {/* Light mode background - always present */}
-          <div className="absolute inset-0 bg-gradient-to-tr from-green-400 to-blue-500 transition-opacity duration-300 ease-in-out dark:opacity-0"></div>
+          <div className="absolute inset-0 bg-gradient-to-tr from-amber-800 to-orange-200 transition-opacity duration-300 ease-in-out dark:opacity-0"></div>
           {/* Dark mode background - always present but opacity changes */}
-          <div className="absolute inset-0 bg-gradient-to-tr from-black to-blue-500 transition-opacity duration-300 ease-in-out opacity-0 dark:opacity-100"></div>
+          <div className="absolute inset-0 bg-gradient-to-tr from-green-950 to-lime-700 transition-opacity duration-300 ease-in-out opacity-0 dark:opacity-100"></div>
          
           {/* Content container with transparent background */}
           <div className="relative z-10 flex flex-col min-h-screen">
